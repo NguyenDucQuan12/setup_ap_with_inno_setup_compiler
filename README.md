@@ -50,6 +50,20 @@ Sau đó chọn chế độ cài đặt yêu cầu quyền admin, như vậy nó
 
 ![Cài đặt chế độ admin](image/admin_install.png)
 
+## Một số lưu ý với chế độ cài đặt  
+### Chọn chế độ cài đặt Admin  
+Nghĩa là chương trình sẽ được cài vào thư mục `C:\\Program File (x86)\\ My app`  
+Như vậy nếu chương trình cảu bạn có các lệnh `thêm, sửa, xóa` các tệp tin trong chương trình, nghãi là thay đổi các tệp trong thư mục ` ổ C` thì bắt buộc lúc khởi chạy phần mềm thì bạn phải chạy nó với quyền admin, hay `run as administrator`  
+
+### Chọn chế độ cài đặt non Admin  
+Thì chương trình sẽ được cài vào một thư mục mà `user` nào cũng có quyền truy cập ` thêm sửa xóa ` thì khi khởi chạy nó sẽ không cần chạy với quyền admin, mà chỉ cần nhấn đúp vào  
+
+### Chọn chế độ hỏi chế độ cài đặt khi cài  
+
+Chọn chế độ này để người dùng tự chọn chế độ cài đặt  
+
+## 
+
 Chọn ngôn ngữ mặc định là `English` và ấn next:  
 
 ![alt text](image/Language.png)
