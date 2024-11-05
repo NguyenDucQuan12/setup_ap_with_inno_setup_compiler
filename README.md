@@ -53,7 +53,7 @@ Sau đó chọn chế độ cài đặt yêu cầu quyền admin, như vậy nó
 ## Một số lưu ý với chế độ cài đặt  
 ### Chọn chế độ cài đặt Admin  
 Nghĩa là chương trình sẽ được cài vào thư mục `C:\\Program File (x86)\\ My app`  
-Như vậy nếu chương trình cảu bạn có các lệnh `thêm, sửa, xóa` các tệp tin trong chương trình, nghãi là thay đổi các tệp trong thư mục ` ổ C` thì bắt buộc lúc khởi chạy phần mềm thì bạn phải chạy nó với quyền admin, hay `run as administrator`  
+Như vậy nếu chương trình của bạn có các lệnh `thêm, sửa, xóa` các tệp tin trong chương trình, nghĩa là thay đổi các tệp trong thư mục ` ổ C` thì bắt buộc lúc khởi chạy phần mềm thì bạn phải chạy nó với quyền admin, hay `run as administrator`  
 
 ### Chọn chế độ cài đặt non Admin  
 Thì chương trình sẽ được cài vào một thư mục mà `user` nào cũng có quyền truy cập ` thêm sửa xóa ` thì khi khởi chạy nó sẽ không cần chạy với quyền admin, mà chỉ cần nhấn đúp vào  
@@ -61,6 +61,8 @@ Thì chương trình sẽ được cài vào một thư mục mà `user` nào c�
 ### Chọn chế độ hỏi chế độ cài đặt khi cài  
 
 Chọn chế độ này để người dùng tự chọn chế độ cài đặt  
+
+![alt text](image/install_mode.png)
 
 ## 
 
@@ -109,3 +111,40 @@ Cuối cùng ấn `Compiler`
 ![alt text](image/setup_app.png)
 
 Và ta chỉ cần chạy file đó là quá trình cài đặt diễn ra như bình thường.
+
+Ví dụ khi khởi động:
+
+Chạy file cài đặt:  
+
+![alt text](image/install_mode.png)
+
+Chọn chế độ cài đặt tương ứng để tiếp tục, mình chọn `Install for all user (recommended)`  
+
+Sau đó đến mục điều khoản:  
+
+![alt text](image/license_before_install.png)  
+
+Nhấn `accept` và tiếp tục:  
+
+![alt text](image/my_license.png)
+
+Sau đó chọn thư mục để cài đặt phần mềm của mình.
+
+![alt text](image/location_app.png)
+
+Ấn `next` và lựa chọn tạo `shortcut` cho phần mềm.  
+
+![alt text](image/create_shortcut.png)
+
+Để hoàn thành thì nhất `install`  
+
+![alt text](image/install_exe.png)
+
+Sau đó đọc thêm file `license` cuối và khởi động chương trình khi đã cài đặt xong.  
+
+![alt text](image/last_license.png)
+
+![alt text](image/run_program.png)
+
+> Nếu chương trình có thêm sửa xóa thì phải khởi động nó với quyền admin `run as administrator` nha  
+> Một cách đơn giản hơn là nếu có các tệp cần phải chỉnh sửa thì hãy tạo nó nằm ở một thư mục khác, không nên để thư mục đó ở ổ C
